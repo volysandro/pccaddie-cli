@@ -1,0 +1,5 @@
+config.edn
+analysis/output
+scorecards-*
+analysis/scorecards-*
+analysis/.venv

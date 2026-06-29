@@ -1,0 +1,15 @@
+;; PC CADDIE mobile portal configuration
+;; Edit freely. To change the default club permanently, edit :default-club below.
+;; (The --id flag overrides it for a single run only and never edits this file.)
+{;; Portal entry point. "pcco" is the shared PC CADDIE online portal used by all clubs.
+ :base-url   "https://mobile.pccaddie.net/clubs/pcco/app.php"
+ :user-agent "Mozilla/5.0 (Linux; Android 10; Mobile)"
+
+ ;; Login credentials. The password may also be supplied via the
+ ;; PCCADDIE_PASSWORD environment variable, which takes precedence.
+ :login      {:user     "<email>"
+              :password "<password>"}
+
+ ;; Default club id used when no --id is given.
+ ;; 214 = Golfclub Bern / Golfpark Moossee
+ :default-club 214}
