@@ -1,7 +1,7 @@
 # Scorecard analysis
 
-Repeatable analysis of the scorecards exported by `pccaddie.bb export-scorecards`.
-Python + pandas + matplotlib/seaborn.
+Repeatable analysis of the scorecards exported by `pccaddie.bb export-scorecards`
+(see the [main README](../README.md)). Python + pandas + matplotlib/seaborn.
 
 ## Quick start
 
